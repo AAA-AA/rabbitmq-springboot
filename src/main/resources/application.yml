@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: rabbitmq-springboot
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
+    listener:
+      retry:
+        max-attempts: 3
+    port: 5672
+server:
+  port: 9080
+
+
